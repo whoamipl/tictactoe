@@ -1,12 +1,14 @@
 package com.hackerspace.tictactoe.business.impl;
 
 import com.hackerspace.tictactoe.business.State;
+import org.springframework.stereotype.Component;
 
 /**
  * TODO: Document this class / interface here
  *
  * @since v7.4
  */
+@Component
 public class StateStub implements State {
 
     @Override
@@ -21,6 +23,6 @@ public class StateStub implements State {
 
     @Override
     public void play(int id) {
-        
+
     }
 }
