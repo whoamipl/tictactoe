@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class FindRest {
     private final State state;
 
-    FindRest(State state) {
+    public FindRest(State state) {
         this.state = state;
     }
 
