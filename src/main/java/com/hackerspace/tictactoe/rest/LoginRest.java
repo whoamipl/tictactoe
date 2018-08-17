@@ -28,6 +28,6 @@ public class LoginRest {
         if(state.find(id)){
             return new ResponseEntity<>(HttpStatus.OK);
         }
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 }
