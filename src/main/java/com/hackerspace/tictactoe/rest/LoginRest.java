@@ -23,7 +23,7 @@ public class LoginRest {
         this.state = state;
     }
 
-    @RequestMapping("/rest/find/{$id}")
+    @RequestMapping("/rest/find/{id}")
     public ResponseEntity<Object> find(@PathVariable(value="id") int id) {
         if(state.find(id)){
             return new ResponseEntity<>(HttpStatus.OK);

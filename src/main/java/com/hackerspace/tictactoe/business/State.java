@@ -6,11 +6,9 @@ package com.hackerspace.tictactoe.business;
  * @since v7.4
  */
 public interface State {
-
     int login();//returns new id
+
     boolean find(int id);//checks if there is user matched with u
+
     void play(int id);//accepts the game with player
-
-
-
 }
